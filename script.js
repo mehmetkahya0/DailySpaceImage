@@ -1,4 +1,4 @@
-const apiKey = "DEMO_KEY"; // Replace with your own API key
+const apiKey = "DEMO"; // Replace with your own API key
 const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
 
 async function fetchApod() {

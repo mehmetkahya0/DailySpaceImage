@@ -1,12 +1,6 @@
-:root {
-  --primary-color: #1a1a2e; /* Dark Navy Blue */
-  --secondary-color: #16213e; /* Dark Blue */
-  --accent-color: #0f3460; /* Blue */
-  --highlight-color: #e94560; /* Bright Red */
-  --text-color: #ffffff; /* White */
-  --background-color: #1a1a2e; /* Dark Navy Blue */
-  --container-background: #0f3460; /* Blue */
-  --border-color: #e94560; /* Bright Red */
+::selection {
+  background-color: #f0dc03;
+  color: #000;
 }
 
 body {
@@ -102,4 +96,20 @@ header p {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
+}
+
+.githubLogo {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  font-size: 24px;
+}
+
+.githubLogo a {
+  color: #626262;
+  transition: color 0.3s ease;
+}
+
+.githubLogo a:hover {
+  color: #ffffff;
 }
