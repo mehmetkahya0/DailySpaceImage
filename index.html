@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -16,7 +16,10 @@
     <div class="container">
       <header>
         <h1>Daily Space Image</h1>
+        <!-- print today's date -->
+        <p id="today-date" class="date"></p>
       </header>
+
       <div id="image-container">
         <img id="apod-image" alt="NASA's Astronomy Picture of the Day" />
       </div>
@@ -26,6 +29,18 @@
         <p id="description"></p>
       </div>
     </div>
+
+    <script>
+      const todayDate = new Date();
+      const options = {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      };
+      document.getElementById("today-date").textContent =
+        todayDate.toLocaleDateString("en-US", options);
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
