@@ -98,11 +98,19 @@ header p {
   line-height: 1.5;
 }
 
+#rate-limit-info {
+  margin-top: 2rem;
+  font-weight: bolder;
+  width: 100%;
+  text-align: center;
+}
+
 .githubLogo {
   position: fixed;
   top: 30px;
   right: 30px;
-  font-size: 24px;
+  font-size: 30px;
+  filter: drop-shadow(0 0 2px #070ed9);
 }
 
 .githubLogo a {
