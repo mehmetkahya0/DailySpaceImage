@@ -1,4 +1,4 @@
-const apiKey = "DEMO_KEY"; // Replace with your own API key
+const apiKey = "DEMO_KEY"; // Replace with your own API key DEMO_KEY
 const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
 
 async function fetchApod() {
@@ -50,7 +50,6 @@ function displayApod(data) {
   title.textContent = data.title;
   date.textContent = data.date;
   description.textContent = data.explanation;
-
 }
 
 // Fetch the APOD when the page loads
