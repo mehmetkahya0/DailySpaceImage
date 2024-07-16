@@ -25,11 +25,11 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: fixed;
+  position: absolute; /* Changed from sticky to absolute */
   width: 100%;
   color: #fff;
-  z-index: 1000; /* Changed from -1000 to 1000 for visibility */
-  display: flex; /* Added to enable flex properties */
+  z-index: 1000;
+  display: flex;
 }
 
 header h1 {
@@ -97,6 +97,18 @@ header p {
   margin-top: 2rem;
   font-weight: bolder;
   width: 100%;
+}
+
+#footer {
+  width: 100%;
+  text-align: center;
+  margin: 1rem;
+  background-color: #000;
+  color: #fff;
+  z-index: 1000;
+  font-size: small;
+  font-weight: thin;
+  margin-top: 2rem;
 }
 
 .githubLogo {
