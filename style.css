@@ -142,6 +142,11 @@ p a:hover {
 /* Media Queries */
 
 @media (max-width: 768px) {
+
+  header {
+    position: absolute;
+    margin-bottom: 3rem !important;
+  }
   header h1 {
     font-size: 1.5rem;
   }
@@ -156,6 +161,7 @@ p a:hover {
 
   #apod-image {
     max-width: 90%;
+    margin-top: 5rem !important;
   }
 
   #info-container {
