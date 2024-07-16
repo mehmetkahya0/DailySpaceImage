@@ -138,3 +138,68 @@ p a {
 p a:hover {
   text-decoration: underline;
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .container {
+    margin-top: 5vh !important;
+  }
+
+  #apod-image {
+    max-width: 90%;
+  }
+
+  #info-container {
+    padding: 0 20px;
+  }
+
+  #footer {
+    font-size: x-small;
+  }
+
+  .githubLogo {
+    top: 10px;
+    right: 10px;
+  }
+
+  .githubLogo a {
+    font-size: 20px;
+  }
+
+  .date {
+    font-size: 0.8rem;
+  }
+
+  #date {
+    font-size: 0.8rem;
+  }
+
+  #explanation {
+    font-size: 0.8rem;
+  }
+
+  #rate-limit-info {
+    font-size: 0.8rem;
+  }
+
+  p a {
+    font-size: 0.8rem;
+  }
+
+  p a:hover {
+    font-size: 0.8rem;
+  }
+
+  img {
+    max-width: 90% !important;
+  }
+}
