@@ -93,6 +93,14 @@ header p {
   line-height: 1.5;
 }
 
+#description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  cursor: text;
+}
+
 #rate-limit-info {
   margin-top: 2rem;
   font-weight: bolder;
@@ -142,7 +150,6 @@ p a:hover {
 /* Media Queries */
 
 @media (max-width: 768px) {
-
   header {
     position: absolute;
     margin-bottom: 3rem !important;
