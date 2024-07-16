@@ -107,7 +107,7 @@ header p {
   color: #fff;
   z-index: 1000;
   font-size: small;
-  font-weight: thin;
+  font-weight: bold;
   margin-top: 2rem;
 }
 
@@ -127,4 +127,15 @@ header p {
 
 .githubLogo a:hover {
   color: #ffffff;
+}
+
+
+p a {
+  color: #f0dc03;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+p a:hover {
+  text-decoration: underline;
 }
