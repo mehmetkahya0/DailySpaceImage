@@ -2,6 +2,8 @@
 
 Explore the cosmos from your screen! Daily Space Image brings you the awe-inspiring Astronomy Picture of the Day (APOD) from NASA, right to your fingertips. Each day, a new image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. 
 
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fmehmetkahya0%2FDailySpaceImage&label=VISITORS&labelColor=%23f0dc03&countColor=%23000000)
+
 ## Features
 
 - **Daily Updates**: Get a new image of our universe every day.
