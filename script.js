@@ -33,8 +33,10 @@ async function fetchApod() {
     date.textContent = "Date";
 
     const description = document.getElementById("description");
-    description.textContent =
-      "Failed to fetch data. Please try again later.";
+    description.textContent = "Failed to fetch data. Please try again later.";
+
+    const rateLimitInfo = document.getElementById("rate-limit-info");
+    rateLimitInfo.textContent = "Rate limit information not available.";
   }
 }
 
@@ -48,6 +50,7 @@ function displayApod(data) {
   title.textContent = data.title;
   date.textContent = data.date;
   description.textContent = data.explanation;
+
 }
 
 // Fetch the APOD when the page loads
